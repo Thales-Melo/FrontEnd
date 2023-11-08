@@ -1,0 +1,19 @@
+body {
+    background-image: url(assets/black_styled_background.jpg);
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente na tela */
+    align-items: center; /* Centraliza verticalmente na tela */
+    height: 100vh; /* Define a altura da tela inteira como referência */
+    margin: 0; /* Remove margens padrão do corpo da página */
+}
+
+#pix-container {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+  }
+
+#pix {
+    width: 350px; /* Defina a largura desejada */
+    height: auto; /* Mantém a proporção da imagem */
+}
