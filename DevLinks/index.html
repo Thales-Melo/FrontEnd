@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" class = "">
   <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -7,22 +7,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DevLinks</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icone_true.png">
   </head>
 
   <body>
     
     <div id = "container">
+
       <div id="profile">
         <img src="assets/Perfil.png" alt= "Foto de Thales Melo sorrindo, usando óculos e camisa preta com pessoas ao fundo">
         <p>@penha_thales</p>
       </div>
+
+      <div id="switch">
+        <button></button> 
+        <span></span>
+      </div>
+
       <ul>
         <li>
-          <a href = "#">Me mande um PIX</a>
+          <a href = "http://127.0.0.1:5500/pix/index.html"target="_blank">Me mande um PIX</a>
         </li>
 
         <li>
-          <a href="#">Site do Flamengo</a>
+          <a href="https://www.flamengo.com.br/"target="_blank">Site do Flamengo</a>
         </li>
 
         <li>
@@ -34,8 +42,40 @@
         </li>
 
       </ul>
+
+      <div id="social-links">
+        <a href="https://github.com/Thales-Melo" target="_blank">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+
+        <a href="https://instagram.com/penha_thales" target="_blank">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+
+        <a href="https://linkedin.com/in/thales-penha" target="_blank">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+
+        <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=thales.m.da.penha@gmail.com&su=&body=" target="_blank">
+          <ion-icon name="mail-outline"></ion-icon>
+        </a>
+      </div>
+
+      <footer>
+        Treinamento em FrontEnd com a <a href="https://rocketseat.com.br/" target="_blank">RocketSeat!</a> 🙃
+      </footer>
+
     </div>
-    
+
+    <script 
+      type="module" 
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js">
+    </script>
+    <script 
+      nomodule 
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js">
+    </script>
+
   </body>
 
 </html>
